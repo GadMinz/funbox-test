@@ -30,11 +30,18 @@ a {
 body {
   color: $text-primary;
   background: url("../assets/pattern.jpg");
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 .wrapper {
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
   max-width: 1280px;
+  margin: 0 auto;
 }
 
 .overlay:before {
@@ -70,4 +77,12 @@ body {
     rgba(0, 0, 0, 0) 50%,
     rgba(0, 0, 0, 0.5) 100%
   );
+  z-index: -10000;
+}
+
+.title {
+  font-family: "Exo2.0", sans-serif;
+  color: $text-tertiary;
+  font-weight: 100;
+  text-align: center;
 }
