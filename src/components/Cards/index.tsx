@@ -32,7 +32,7 @@ const cards: TCard[] = [
     weight: 2,
   },
   {
-    count: 10,
+    count: 0,
     stuffing: "с курой",
     stuffing_full: "Филе из цыплят с трюфелями в бульоне.",
     servings: 100,

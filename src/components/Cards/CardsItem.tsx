@@ -7,6 +7,8 @@ interface CardsItemProps {
 }
 
 const CardsItem: React.FC<CardsItemProps> = ({ item }) => {
+  const [select, setSelect] = React.useState(false);
+
   const {
     count,
     stuffing,
@@ -16,11 +18,21 @@ const CardsItem: React.FC<CardsItemProps> = ({ item }) => {
     additionally,
     weight,
   } = item;
+
+  const toggleSelect = () => {
+    if (count === 0) return;
+    setSelect((prevState) => !prevState);
+  };
+
   return (
-    <div className={s.card_wrapper}>
-      <div className={s.card_content_wrapper}>
+    <div
+      className={`${s.card_wrapper} ${select && s.selected} ${
+        count === 0 && s.disabled
+      }`}
+    >
+      <div className={s.card_content_wrapper} onClick={toggleSelect}>
         <div className={s.card_content}>
-          <div className={s.card_desc}>Сказочное заморское яство</div>
+          <div className={s.card_desc}></div>
           <h2 className={s.card_title}>Нямушка</h2>
           <div className={s.card_subtitle}>{stuffing}</div>
           <div className={s.card_features}>
@@ -38,7 +50,15 @@ const CardsItem: React.FC<CardsItemProps> = ({ item }) => {
         </div>
       </div>
       <div className={s.card_footer}>
-        Чего сидишь? Порадуй котэ, <span>купи.</span>
+        {select ? (
+          <>{stuffing_full}</>
+        ) : count === 0 ? (
+          <>Печалька, {stuffing} закончился.</>
+        ) : (
+          <>
+            Чего сидишь? Порадуй котэ, <span onClick={toggleSelect}>купи.</span>
+          </>
+        )}
       </div>
     </div>
   );
