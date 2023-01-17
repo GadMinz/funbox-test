@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Trebuchet MS";
-  src: local("Trebuchet MS"), url("./fonts/TrebuchetMS.ttf") format("truetype"),
+  src: local('./fonts/Trebuchet MS Regular'), url("./fonts/TrebuchetMS.ttf") format("truetype"),
     url("./fonts/TrebuchetMS.eot?#iefix") format("embedded-opentype"),
     url("./fonts/TrebuchetMS.woff") format("woff");
   font-weight: 400;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "Trebuchet MS";
-  src: local("Trebuchet MS"),
+  src: local("./fonts/Trebuchet MS Bold"),
     url("./fonts/TrebuchetMS-Bold.ttf") format("truetype"),
     url("./fonts/TrebuchetMS-Bold.eot?#iefix") format("embedded-opentype"),
     url("./fonts/TrebuchetMS-Bold.woff") format("woff");
@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: "Exo2.0";
-  src: local("Exo2.0"), url("./fonts/Exo2.0-Thin.ttf") format("truetype"),
+  src: local("Exo2.0 Thin"), url("./fonts/Exo2.0-Thin.ttf") format("truetype"),
     url("./fonts/Exo2.0-Thin.eot") format("embedded-opentype"),
     url("./fonts/Exo2.0-Thin.woff") format("woff");
   font-weight: 100;
