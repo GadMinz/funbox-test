@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/funbox-test/static/css/main.ec8285cb.css",
+    "main.js": "/funbox-test/static/js/main.516bc217.js",
+    "static/media/TrebuchetMS.eot": "/funbox-test/static/media/TrebuchetMS.a39cca2d6c78afd39d8f.eot",
+    "static/media/TrebuchetMS.ttf": "/funbox-test/static/media/TrebuchetMS.d69a72044b0a638fd1a5.ttf",
+    "static/media/TrebuchetMS-Bold.eot": "/funbox-test/static/media/TrebuchetMS-Bold.cf07b813e87a6896b44b.eot",
+    "static/media/TrebuchetMS-Bold.ttf": "/funbox-test/static/media/TrebuchetMS-Bold.b69cd0cd0562310312d7.ttf",
+    "static/media/Cat.png": "/funbox-test/static/media/Cat.83c44837451a8bdc6a4f.png",
+    "static/media/TrebuchetMS.woff": "/funbox-test/static/media/TrebuchetMS.af3cbb0e7a5aaa5aad48.woff",
+    "static/media/TrebuchetMS-Bold.woff": "/funbox-test/static/media/TrebuchetMS-Bold.ed76e98b5ec0933d740e.woff",
+    "static/media/Exo2.0-Thin.ttf": "/funbox-test/static/media/Exo2.0-Thin.c6c167501ad49b1fb445.ttf",
+    "static/media/Exo2.0-Thin.eot": "/funbox-test/static/media/Exo2.0-Thin.1cfc18c2d2268fd25ff6.eot",
+    "static/media/Exo2.0-Thin.woff": "/funbox-test/static/media/Exo2.0-Thin.fd470d26f4352addb144.woff",
+    "index.html": "/funbox-test/index.html",
+    "main.ec8285cb.css.map": "/funbox-test/static/css/main.ec8285cb.css.map",
+    "main.516bc217.js.map": "/funbox-test/static/js/main.516bc217.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec8285cb.css",
+    "static/js/main.516bc217.js"
+  ]
+}
